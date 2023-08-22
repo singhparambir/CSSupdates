@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+body{
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+ol{
+    list-style-type: decimal-leading-zero;
+    
+}
+ul{
+    list-style-type:circle;/* we can make ordered list as unordered and unordered as ordered by using list style type css property*/
+    text-align: center;
+    list-style-position: inside;/* if we use inside then bulletins will also move when we will text-alighn - center and if we use outside then bulletins will not move only text will move*/
+    line-height: 1.6;
+   /* list-style-image:url('../images/checkbox.jpg') ;*/
+}
+::marker{ /*we can apply marker to both ol and ul depending on our need */
+
+    color:red;
+
+    font-family: fantasy;
+    font-size: 2rem;
+    content:" param markers ";
+}
